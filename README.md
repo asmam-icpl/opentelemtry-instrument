@@ -1,2 +1,3 @@
 # opentelemtry-instrument
-this repository about the code of task related to infopercept
+this repository about the code of task related to instrument
+
