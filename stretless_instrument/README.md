@@ -27,8 +27,9 @@ step3:
   run the container of otel-collector
 
 step3: Run the app
+  export OTEL_PYTHON_LOGGING_AUTO_INSTRUMENTATION_ENABLED=true
 
-  opentelemetry-instrument --traces-exporter console --metrics-exporter console --logs-exporter console --service-name str-server  uvicorn example:app --host=0.0.0.0 --port=8000
+  opentelemetry-instrument --traces_exporter console --metrics_exporter console --logs_exporter console  --service_name str-server uvicorn example:app --host=0.0.0.0 --port=8000
 
 step4: see the log
 
