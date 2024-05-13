@@ -7,13 +7,13 @@ Step1:-create venv in python.
    
 step2: import some package.
 
-  pip install opentelemetry-api
+  pip3 install opentelemetry-api
   
-  pip install opentelemetry-sdk
+  pip3 install opentelemetry-sdk
   
-  pip install opentelemetry-instrumentation-starlette
+  pip3 install opentelemetry-instrumentation-starlette
   
-  pip install opentelemetry-distro opentelemetry-exporter-otlp
+  pip3 install opentelemetry-distro opentelemetry-exporter-otlp
   
   opentelemetry-bootstrap -a install
   
