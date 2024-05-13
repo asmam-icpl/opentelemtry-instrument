@@ -25,6 +25,7 @@ step3:
   run the container of otel-collector
 
 step3: Run the app
+
   opentelemetry-instrument --traces-exporter console --metrics-exporter console --logs-exporter console --service-name str-server  uvicorn example:app --host=0.0.0.0 --port=8000
 
 step4: see the log
