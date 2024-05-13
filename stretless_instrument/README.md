@@ -1,6 +1,8 @@
 Step1:-create venv in python. 
    python3 -m venv venv
    source ./venv/bin/activate
+
+   
 step2: import some package.
   pip install opentelemetry-api
   pip install opentelemetry-sdk
