@@ -21,6 +21,8 @@ step2: import some package.
   
   pip3 install uvicorn
 
+  pip3 install opentelemetry-instrumentation-starlette
+
 step3:
   run the container of otel-collector
 
