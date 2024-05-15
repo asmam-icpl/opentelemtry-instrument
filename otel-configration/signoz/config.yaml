@@ -1,0 +1,19 @@
+receivers:
+  otlp:
+    protocols:
+      grpc:
+      http:
+
+exporters:
+  otlp:
+    endpoint: "http://34.200.35.1:9411/v1/trace"
+    #headers:
+     # X-Signoz-Token: "<your_token>"
+    service_name: "dice-server"
+
+service:
+  name: "dice-server"
+  port: 9411
+
+log:
+  level: info

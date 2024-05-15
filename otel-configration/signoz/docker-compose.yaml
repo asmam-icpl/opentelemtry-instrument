@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+  signoz-frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    container_name: signoz-frontend
+    ports:
+      - "8080:80"
+    environment:
+      - BACKEND_ENDPOINT=http://34.200.35.1:9411
+    restart: always
+
